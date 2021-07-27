@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 
-export default class AppDogs extends Component {
+export default class EstudiosExperiencia extends Component {
     render() {
         return (
             <div>
                 
+
             </div>
         )
     }
 }
+
