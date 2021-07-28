@@ -51,7 +51,7 @@ export const About = () => {
               <div className="About-container">
                   <AboutAvatar>
                     <figure>
-                      <AboutImg src="https://3.bp.blogspot.com/-JfL1o7oSnKI/VmodObHF9cI/AAAAAAAABLY/nKKRXw0-yiU/s1600/homero_456_336.jpg" alt="Mi foto" />
+                      <AboutImg src="https://w7.pngwing.com/pngs/359/411/png-transparent-computer-icons-user-profile-service-others-service-business-formal-wear.png" alt="Mi foto" />
                     </figure>
                     <AboutName>
                       <h2>Woondeling Jose Colina Martinez</h2>
