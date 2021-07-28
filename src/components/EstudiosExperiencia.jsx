@@ -30,7 +30,7 @@ const Experience = styled.div`
     height: 50%;
 `;
 const ExperienceInfo = styled.div`
-
+    padding-bottom:20px;
 `;
 const Subtitles = styled.div`
     text-transform: uppercase;
