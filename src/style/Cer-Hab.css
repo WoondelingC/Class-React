@@ -1,0 +1,27 @@
+.progress {
+    width: 75%;
+}
+
+.progress-bar.html{
+    width: 70%;
+    background-color: #2d0dfd;
+}
+
+.progress-bar.Css
+{
+    width: 60%;
+    background-color: #2d0dfd;
+}
+
+.progress-bar.Javascript{
+    width: 70%;
+    background-color: #2d0dfd;
+}
+
+.progress-bar.ReactJs{
+    width: 40%;
+    background-color: #2d0dfd;
+}
+.row{
+    margin-left: -25px;
+}
