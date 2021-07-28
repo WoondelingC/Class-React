@@ -10,6 +10,12 @@ const AboutStyle = styled.div`
     border: 2px solid blue;
     border-radius: 20px;
     padding:10px;
+    
+    @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+      }
 `;
 
 
