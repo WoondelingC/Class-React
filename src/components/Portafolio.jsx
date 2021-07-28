@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import { EstudiosExperiencia } from './EstudiosExperiencia';
 import { About } from './About';
 
+import Habilidades from './Habilidades';
+import Certificaciones from './Certificaciones';
 
 const Container = styled.div`
     background-color: #ccc;
@@ -39,7 +41,6 @@ const CertSkillsContainer = styled.div`
     border-radius: 10px;
 `;
 
-
 export default class Portafolio extends Component {
     render() {
         return (
@@ -50,9 +51,14 @@ export default class Portafolio extends Component {
                 <StuExpContainer>
                     <EstudiosExperiencia />
                 </StuExpContainer>
-                <CertSkillsContainer>
 
+                <CertSkillsContainer>
+                    <Certificaciones></Certificaciones>
+                    <Habilidades></Habilidades>
                 </CertSkillsContainer>
+
+
+
             </Container>
         )
     }
