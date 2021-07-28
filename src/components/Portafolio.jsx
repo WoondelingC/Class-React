@@ -16,7 +16,14 @@ const Container = styled.div`
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 15px
+    padding: 15px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+      }
+
 `;
 
 const ProfContainer = styled.div`
@@ -25,6 +32,11 @@ const ProfContainer = styled.div`
     height: 100%;
     border: 1px solid #000;
     border-radius: 10px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+      }
 `;
 const StuExpContainer = styled.div`
     background-color: #ccc;
@@ -32,6 +44,11 @@ const StuExpContainer = styled.div`
     height: calc(50% - 5px);
     border: 1px solid #000;
     border-radius: 10px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+      }
 `;
 const CertSkillsContainer = styled.div`
     background-color: #ccc;
@@ -39,6 +56,11 @@ const CertSkillsContainer = styled.div`
     height: calc(50% - 5px);
     border: 1px solid #000;
     border-radius: 10px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+      }
 `;
 
 export default class Portafolio extends Component {

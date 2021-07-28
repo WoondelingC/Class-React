@@ -5,15 +5,22 @@ import styled from 'styled-components';
 
 const AboutStyle = styled.div`
     text-align: center;
-    width: 250px;
-    margin:100px 0 0 300px;
-    border: 2px solid blue;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     padding:10px;
+    
+    @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+      }
 `;
 
 
 const AboutAvatar = styled.div`
+    margin-top: 20px;
+    margin-bottom:20%;
     padding:0;
 `;
 
@@ -32,14 +39,15 @@ const AboutName = styled.div`
 `;
 
 const AboutInf = styled.div `
-text-align: center;
-margin-bottom:50px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 70px;
 `;
 const AboutFooter = styled.img `
-width: 20px;
-height: 20px;
-display: flex-inline;
-margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    display: flex-inline;
+    margin: 25px;
 `
 
 //funcion statefull
@@ -51,12 +59,13 @@ export const About = () => {
               <div className="About-container">
                   <AboutAvatar>
                     <figure>
-                      <AboutImg src="https://3.bp.blogspot.com/-JfL1o7oSnKI/VmodObHF9cI/AAAAAAAABLY/nKKRXw0-yiU/s1600/homero_456_336.jpg" alt="Mi foto" />
-                    </figure>
+                      <AboutImg src="https://w7.pngwing.com/pngs/359/411/png-transparent-computer-icons-user-profile-service-others-service-business-formal-wear.png" alt="Mi foto" />
+                    </figure>                   
+                  </AboutAvatar>
+                  
                     <AboutName>
                       <h2>Woondeling Jose Colina Martinez</h2>
                     </AboutName>
-                  </AboutAvatar>
               </div>
               <AboutInf>
               <p>Estudiante del curso oficial Frontend</p>

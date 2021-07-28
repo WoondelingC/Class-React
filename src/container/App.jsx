@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Portafolio from "../components/Portafolio";
 import styled from "styled-components";
-import '../style/general-styles.css'
+import '../style/general-styles.css';
 
 const Container = styled.div`
     margin: 0;

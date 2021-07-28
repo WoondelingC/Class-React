@@ -9,8 +9,25 @@ const Container = styled.div`
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    box-sizing: border-box;
     padding: 20px 30px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    box-sizing: border-box;
+
+    &::-webkit-scrollbar {
+        width: 7px;
+        height: 90%;
+        background-color: inherit;
+    }
+    &::-webkit-scrollbar-track{
+        border-radius: 10px;
+        background-color: inherit;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: #797979;
+        border-radius: 20px;
+}
 `;
 
 const Studies = styled.div`
@@ -29,7 +46,7 @@ const Experience = styled.div`
     height: 50%;
 `;
 const ExperienceInfo = styled.div`
-
+    padding-bottom:20px;
 `;
 const Subtitles = styled.div`
     text-transform: uppercase;
@@ -62,6 +79,32 @@ export class EstudiosExperiencia extends Component {
                     <Subtitles>experiencia</Subtitles>
                     <ExperienceInfo>
                         <InfoSection>
+                            <h4>PCJIC - 2016</h4>
+                            <p>
+                                Magister en ingenieria de software
+                            </p>
+                        </InfoSection>
+                        <InfoSection>
+                            <h4>PCJIC - 2016</h4>
+                            <p>
+                                Magister en ingenieria de software
+                            </p>
+                        </InfoSection><InfoSection>
+                            <h4>PCJIC - 2016</h4>
+                            <p>
+                                Magister en ingenieria de software
+                            </p>
+                        </InfoSection><InfoSection>
+                            <h4>PCJIC - 2016</h4>
+                            <p>
+                                Magister en ingenieria de software
+                            </p>
+                        </InfoSection><InfoSection>
+                            <h4>PCJIC - 2016</h4>
+                            <p>
+                                Magister en ingenieria de software
+                            </p>
+                        </InfoSection><InfoSection>
                             <h4>PCJIC - 2016</h4>
                             <p>
                                 Magister en ingenieria de software
