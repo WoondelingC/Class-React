@@ -9,8 +9,9 @@ const Container = styled.div`
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    box-sizing: border-box;
     padding: 20px 30px;
+    overflow: scroll;
+    box-sizing: border-box;
 `;
 
 const Studies = styled.div`
@@ -62,6 +63,32 @@ export class EstudiosExperiencia extends Component {
                     <Subtitles>experiencia</Subtitles>
                     <ExperienceInfo>
                         <InfoSection>
+                            <h4>PCJIC - 2016</h4>
+                            <p>
+                                Magister en ingenieria de software
+                            </p>
+                        </InfoSection>
+                        <InfoSection>
+                            <h4>PCJIC - 2016</h4>
+                            <p>
+                                Magister en ingenieria de software
+                            </p>
+                        </InfoSection><InfoSection>
+                            <h4>PCJIC - 2016</h4>
+                            <p>
+                                Magister en ingenieria de software
+                            </p>
+                        </InfoSection><InfoSection>
+                            <h4>PCJIC - 2016</h4>
+                            <p>
+                                Magister en ingenieria de software
+                            </p>
+                        </InfoSection><InfoSection>
+                            <h4>PCJIC - 2016</h4>
+                            <p>
+                                Magister en ingenieria de software
+                            </p>
+                        </InfoSection><InfoSection>
                             <h4>PCJIC - 2016</h4>
                             <p>
                                 Magister en ingenieria de software
