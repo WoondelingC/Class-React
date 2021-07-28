@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 import Portafolio from "../components/Portafolio";
+import styled from "styled-components";
+import '../style/general-styles.css'
 
-export default class App extends Component {
+const Container = styled.div`
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+`;
+
+export class App extends Component {
     render() {
         return (
-            <div>
+            <Container>
                 <Portafolio />
-            </div>
+            </Container>
         )
     }
 }

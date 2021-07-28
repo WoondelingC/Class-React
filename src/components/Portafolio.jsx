@@ -1,31 +1,40 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+import { EstudiosExperiencia } from './EstudiosExperiencia';
+import { About } from './About';
+
 
 const Container = styled.div`
+    background-color: #ccc;
     width: 100%;
-    heigth: 100vh;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    padding: 15px
 `;
 
 const ProfContainer = styled.div`
-    width: 30%;
-    heigth: 50vh;
+    background-color: #ccc;
+    width: 35%;
+    height: 100%;
     border: 1px solid #000;
     border-radius: 10px;
 `;
 const StuExpContainer = styled.div`
-    width: 70%;
-    heigth: 50vh;
+    background-color: #ccc;
+    width: calc( 65% - 25px);
+    height: calc(50% - 5px);
     border: 1px solid #000;
     border-radius: 10px;
-`
-;const CertSkillsContainer = styled.div`
-    width: 70%;
-    heigth: 50vh;
+`;
+const CertSkillsContainer = styled.div`
+    background-color: #ccc;
+    width: calc( 65% - 25px);
+    height: calc(50% - 5px);
     border: 1px solid #000;
     border-radius: 10px;
 `;
@@ -36,10 +45,10 @@ export default class Portafolio extends Component {
         return (
             <Container>
                 <ProfContainer>
-
+                    <About />
                 </ProfContainer>
                 <StuExpContainer>
-
+                    <EstudiosExperiencia />
                 </StuExpContainer>
                 <CertSkillsContainer>
 
