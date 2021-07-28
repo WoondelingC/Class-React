@@ -5,9 +5,8 @@ import styled from 'styled-components';
 
 const AboutStyle = styled.div`
     text-align: center;
-    width: 250px;
-    margin:100px 0 0 300px;
-    border: 2px solid blue;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     padding:10px;
     
@@ -20,6 +19,8 @@ const AboutStyle = styled.div`
 
 
 const AboutAvatar = styled.div`
+    margin-top: 20px;
+    margin-bottom:20%;
     padding:0;
 `;
 
@@ -38,14 +39,15 @@ const AboutName = styled.div`
 `;
 
 const AboutInf = styled.div `
-text-align: center;
-margin-bottom:50px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 70px;
 `;
 const AboutFooter = styled.img `
-width: 20px;
-height: 20px;
-display: flex-inline;
-margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    display: flex-inline;
+    margin: 25px;
 `
 
 //funcion statefull
@@ -58,11 +60,12 @@ export const About = () => {
                   <AboutAvatar>
                     <figure>
                       <AboutImg src="https://w7.pngwing.com/pngs/359/411/png-transparent-computer-icons-user-profile-service-others-service-business-formal-wear.png" alt="Mi foto" />
-                    </figure>
+                    </figure>                   
+                  </AboutAvatar>
+                  
                     <AboutName>
                       <h2>Woondeling Jose Colina Martinez</h2>
                     </AboutName>
-                  </AboutAvatar>
               </div>
               <AboutInf>
               <p>Estudiante del curso oficial Frontend</p>
