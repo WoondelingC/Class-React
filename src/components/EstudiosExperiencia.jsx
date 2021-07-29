@@ -48,18 +48,13 @@ const Experience = styled.div`
 const ExperienceInfo = styled.div`
     padding-bottom:20px;
 `;
-const Subtitles = styled.div`
-    text-transform: uppercase;
-    font-weight: 700;
-    padding: 10px 0;
-`;
 
 export class EstudiosExperiencia extends Component {
     render() {
         return (
             <Container>
                 <Studies>
-                    <Subtitles>estudios</Subtitles>
+                    <h1>estudios</h1>
                     <StudiesInfo>
                         <InfoSection>
                             <h4>PCJIC - 2016</h4>
@@ -76,7 +71,7 @@ export class EstudiosExperiencia extends Component {
                     </StudiesInfo>
                 </Studies>
                 <Experience>
-                    <Subtitles>experiencia</Subtitles>
+                    <h1>experiencia</h1>
                     <ExperienceInfo>
                         <InfoSection>
                             <h4>PCJIC - 2016</h4>
