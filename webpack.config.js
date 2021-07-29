@@ -73,5 +73,6 @@ module.exports = {
     compress: true,
     //Habilitar para poder acceder a la información y mostrar cada una de las rutas
     historyApiFallback: true,
+    port: 3006,
   },
 };
