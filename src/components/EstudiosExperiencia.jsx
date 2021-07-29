@@ -52,7 +52,7 @@ export class EstudiosExperiencia extends Component {
         return (
             <Container>
                 <Studies>
-                    <h1>estudios</h1>
+                    <h2>estudios</h2>
                     <StudiesInfo>
                         <InfoSection>
                             <h4>PCJIC - 2016</h4>
@@ -69,7 +69,7 @@ export class EstudiosExperiencia extends Component {
                     </StudiesInfo>
                 </Studies>
                 <Experience>
-                    <h1>experiencia</h1>
+                    <h2>experiencia</h2>
                     <ExperienceInfo>
                         <InfoSection>
                             <h4>PCJIC - 2016</h4>
