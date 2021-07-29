@@ -32,8 +32,6 @@ const Container = styled.div`
 
 const Studies = styled.div`
     width: 100%;
-    height: 50%;
-    margin-bottom: 20px;
 `;
 const StudiesInfo = styled.div`
 
@@ -46,7 +44,7 @@ const Experience = styled.div`
     height: 50%;
 `;
 const ExperienceInfo = styled.div`
-    padding-bottom:20px;
+    padding-bottom: 25px;
 `;
 
 export class EstudiosExperiencia extends Component {
