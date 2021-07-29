@@ -32,8 +32,6 @@ const Container = styled.div`
 
 const Studies = styled.div`
     width: 100%;
-    height: 50%;
-    margin-bottom: 20px;
 `;
 const StudiesInfo = styled.div`
 
@@ -46,7 +44,7 @@ const Experience = styled.div`
     height: 50%;
 `;
 const ExperienceInfo = styled.div`
-    padding-bottom:20px;
+    padding-bottom: 25px;
 `;
 
 export class EstudiosExperiencia extends Component {
@@ -54,7 +52,7 @@ export class EstudiosExperiencia extends Component {
         return (
             <Container>
                 <Studies>
-                    <h1>estudios</h1>
+                    <h3>estudios</h3>
                     <StudiesInfo>
                         <InfoSection>
                             <h4>PCJIC - 2016</h4>
@@ -71,7 +69,7 @@ export class EstudiosExperiencia extends Component {
                     </StudiesInfo>
                 </Studies>
                 <Experience>
-                    <h1>experiencia</h1>
+                    <h3>experiencia</h3>
                     <ExperienceInfo>
                         <InfoSection>
                             <h4>PCJIC - 2016</h4>
